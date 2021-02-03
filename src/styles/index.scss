@@ -11,3 +11,56 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#contenedorabout{
+    height: 100vh;
+}
+
+
+.iconos{
+
+    display:inline-block;
+    text-align:right;
+    vertical-align: top;
+    color:white;
+ }
+
+.jumbotron{
+    position: relative;
+    z-index: -1;
+    height: 100vh;
+
+}
+
+
+
+.encima{
+    position: relative;
+    z-index:10;
+}
+
+
+.rounded{
+    position: absolute;
+    z-index: 1;
+    top: 1%;
+    right: 50%;
+}
+
+.texto{
+    text-align: center;
+}
+
+.espacio{
+      margin-top: -0.25rem !important;
+}
+
+#texto{
+     height: 100vh;
+}
+
+
+.divarriba{
+ width: 40%;
+
+
+}
